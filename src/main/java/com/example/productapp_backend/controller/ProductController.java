@@ -15,9 +15,13 @@ public class ProductController {
     public String AddProduct(){
         return "Add product";
     }
-    @GetMapping("/")
+    @GetMapping("/view")
     public String ViewProducts(){
         return "View products";
+    }
+    @PostMapping("/search")
+    public String SearchProduct(){
+        return "Search product";
     }
 
 }
