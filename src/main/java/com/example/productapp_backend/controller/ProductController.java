@@ -23,5 +23,9 @@ public class ProductController {
     public String SearchProduct(){
         return "Search product";
     }
+    @PostMapping("/edit")
+    public String EditProduct(){
+        return "Edit product";
+    }
 
 }
